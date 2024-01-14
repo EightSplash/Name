@@ -1,5 +1,5 @@
 local f3x = game:GetObjects("rbxassetid://9797801917")[1]
-f3x.CanBeDropped = false
+f3x.CanBeDropped = true
 f3x.Parent = game:GetService("Players").LocalPlayer.Backpack
 
 local function Load(Object)
